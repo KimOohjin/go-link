@@ -21,6 +21,7 @@ Google, Bing, Naver, DuckDuckGo, Yahoo, Daum 검색창 입력과 `http://go/<이
 ## 사이트 추가/삭제
 ### 1. 팝업 열기
 Chrome 오른쪽 위 퍼즐 아이콘 → **Go Link** 클릭. 현재 등록된 링크 목록이 보입니다.
+<img width="872" height="308" alt="image" src="https://github.com/user-attachments/assets/3cf413e3-8d30-4a0e-af96-4a97e2d09622" />
 
 <img src="docs/1-list.png" width="420" alt="Go Link 팝업 - 링크 목록">
 
