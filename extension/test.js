@@ -1,0 +1,11 @@
+const assert = require('assert');
+const { parseGoName } = require('./match.js');
+const q = (s) => 'https://www.google.com/search?q=' + encodeURIComponent(s);
+assert.equal(parseGoName(q('go/google')), 'google');
+assert.equal(parseGoName(q('GO/GOOGLE')), 'google');
+assert.equal(parseGoName(q('  Go/GitHub/ ')), 'github');
+assert.equal(parseGoName('http://go/Naver'), 'naver');
+assert.equal(parseGoName('https://search.naver.com/search.naver?query=go%2FYouTube'), 'youtube');
+assert.equal(parseGoName(q('good morning')), null);
+assert.equal(parseGoName('https://example.com/?q=go/google'), null);
+console.log('ok');

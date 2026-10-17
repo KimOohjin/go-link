@@ -1,0 +1,16 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Go Link</title>
+<style>
+  body { font: 14px system-ui; width: 460px; margin: 12px; }
+  input { padding: 4px; } #name { width: 90px; } #url { width: 240px; }
+  li { display: flex; gap: 8px; margin: 4px 0; } li a { flex: 1; overflow: hidden; text-overflow: ellipsis; }
+  textarea { width: 100%; height: 80px; display: none; }
+</style>
+<h3>Go Link</h3>
+<form id="f">go/<input id="name" placeholder="이름" required>
+  <input id="url" type="url" placeholder="https://..." required> <button>추가</button></form>
+<ul id="list"></ul>
+<button id="exp">내보내기</button> <button id="imp">가져오기</button>
+<textarea id="box" placeholder="JSON을 붙여넣고 '가져오기'를 다시 누르세요"></textarea>
+<script src="options.js"></script>

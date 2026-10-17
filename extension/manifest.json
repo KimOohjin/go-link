@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Go Link",
+  "version": "1.1.0",
+  "description": "주소창에 go/<이름>을 입력하면 등록된 사이트로 바로 이동합니다 (대소문자 무시).",
+  "permissions": ["webNavigation", "storage", "declarativeNetRequest"],
+  "host_permissions": [
+    "*://go/*",
+    "*://*.google.com/*",
+    "*://*.google.co.kr/*",
+    "*://*.bing.com/*",
+    "*://*.naver.com/*",
+    "*://duckduckgo.com/*",
+    "*://*.yahoo.com/*",
+    "*://*.daum.net/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "options_page": "options.html",
+  "action": { "default_popup": "options.html" }
+}
