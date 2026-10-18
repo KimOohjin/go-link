@@ -12,6 +12,14 @@ Google, Bing, Naver, DuckDuckGo, Yahoo, Daum 검색창 입력과 `http://go/<이
 3. **압축해제된 확장 프로그램을 로드합니다** → 받은 폴더 안의 `extension` 폴더 선택
 4. (선택) 퍼즐 아이콘에서 Go Link를 툴바에 고정
 
+### Microsoft Edge
+Edge는 Chromium 기반이라 **같은 `extension` 폴더를 그대로** 씁니다.
+1. 주소창에 `edge://extensions` 입력 → 왼쪽 아래(또는 메뉴)의 **개발자 모드** 켜기
+2. **압축 풀린 항목 로드** → `extension` 폴더 선택
+3. 주소창에 `go/naver` 입력 (Edge 기본 검색엔진 Bing 지원)
+
+링크 목록 동기화는 Edge 설정의 **프로필 → 동기화**(Microsoft 계정)가 켜져 있어야 PC 간에 공유됩니다. Chrome과 Edge 사이에는 자동 동기화되지 않으니 **내보내기/가져오기**(JSON)를 쓰세요.
+
 > 회사/학교 관리 브라우저는 정책상 압축해제된 확장 설치가 막혀 있을 수 있습니다.
 
 ## 사용
