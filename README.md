@@ -6,7 +6,7 @@
 Google, Bing, Naver, DuckDuckGo, Yahoo, Daum 검색창 입력과 `http://go/<이름>` 모두 지원합니다.
 
 ## 설치 (PC마다 1회)
-1. 이 저장소를 받습니다: `git clone https://github.com/KimOohjin/chrome-go-link.git`
+1. 이 저장소를 받습니다: `git clone https://github.com/KimOohjin/go-link.git`
    (또는 **Code → Download ZIP** 후 압축 해제)
 2. Chrome에서 `chrome://extensions` → 우측 상단 **개발자 모드** 켜기
 3. **압축해제된 확장 프로그램을 로드합니다** → 받은 폴더 안의 `extension` 폴더 선택
